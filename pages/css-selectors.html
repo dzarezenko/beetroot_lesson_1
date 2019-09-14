@@ -21,9 +21,9 @@
       a[title="test"] {
         color:coral;
       }
-      li:hover {
+      /*li:hover {
         background-color: black;
-      }
+      }*/
       a:not(:hover) {
         background-color: gold;
       }
@@ -38,6 +38,21 @@
       p::first-letter {
         font-weight: bold;
         text-transform: uppercase;
+      }
+
+      ol#ordered-list li:nth-child(3) {
+        color: red;
+      }
+
+      ol#ordered-list li:nth-child(2n+5) {
+        color: violet;
+      }
+
+      table tr:nth-child(even) {
+        background-color: #999999;
+      }
+      table td {
+        padding: 10px 5px;
       }
     </style>
   </head>
@@ -70,10 +85,133 @@
       aslkdjlaksjd
     </p>
 
-    <p class="par">
+    <!--p class="par">
         laksjdlsajdksdj<br />
         salkdj laskdjlkasjd
         aslkdjlaksjd
-      </p>
+      </p-->
+
+    <ol id="ordered-list">
+      <li>Text</li>
+      <li>Text</li>
+      <li>Text</li>
+      <li>Text</li>
+      <li>Text</li>
+      <li>Text</li>
+      <li>Text</li>
+      <li>Text</li>
+      <li>Text</li>
+      <li>Text</li>  
+    </ol>
+
+    <table cellspacing="0" cellpadding="0">
+      <tbody>
+        <tr>
+          <td>Text</td>
+          <td>Text</td>
+          <td>Text</td>
+          <td>Text</td>
+          <td>Text</td>
+        </tr>
+        <tr>
+          <td>Text</td>
+          <td>Text</td>
+          <td>Text</td>
+          <td>Text</td>
+          <td>Text</td>
+        </tr>
+        <tr>
+          <td>Text</td>
+          <td>Text</td>
+          <td>Text</td>
+          <td>Text</td>
+          <td>Text</td>
+        </tr>
+        <tr>
+          <td>Text</td>
+          <td>Text</td>
+          <td>Text</td>
+          <td>Text</td>
+          <td>Text</td>
+        </tr>
+        <tr>
+          <td>Text</td>
+          <td>Text</td>
+          <td>Text</td>
+          <td>Text</td>
+          <td>Text</td>
+        </tr>
+        <tr>
+          <td>Text</td>
+          <td>Text</td>
+          <td>Text</td>
+          <td>Text</td>
+          <td>Text</td>
+        </tr>
+        <tr>
+          <td>Text</td>
+          <td>Text</td>
+          <td>Text</td>
+          <td>Text</td>
+          <td>Text</td>
+        </tr>
+        <tr>
+          <td>Text</td>
+          <td>Text</td>
+          <td>Text</td>
+          <td>Text</td>
+          <td>Text</td>
+        </tr>
+        <tr>
+          <td>Text</td>
+          <td>Text</td>
+          <td>Text</td>
+          <td>Text</td>
+          <td>Text</td>
+        </tr>
+        <tr>
+          <td>Text</td>
+          <td>Text</td>
+          <td>Text</td>
+          <td>Text</td>
+          <td>Text</td>
+        </tr>
+        <tr>
+          <td>Text</td>
+          <td>Text</td>
+          <td>Text</td>
+          <td>Text</td>
+          <td>Text</td>
+        </tr>
+        <tr>
+          <td>Text</td>
+          <td>Text</td>
+          <td>Text</td>
+          <td>Text</td>
+          <td>Text</td>
+        </tr>
+        <tr>
+          <td>Text</td>
+          <td>Text</td>
+          <td>Text</td>
+          <td>Text</td>
+          <td>Text</td>
+        </tr>
+        <tr>
+          <td>Text</td>
+          <td>Text</td>
+          <td>Text</td>
+          <td>Text</td>
+          <td>Text</td>
+        </tr>
+        <tr>
+          <td>Text</td>
+          <td>Text</td>
+          <td>Text</td>
+          <td>Text</td>
+          <td>Text</td>
+        </tr>
+      </tbody>
+    </table>
   </body>
 </html>
