@@ -15,6 +15,12 @@
       a:hover {
         font-style: italic;
       }
+      li > a {
+        background-color: aqua;
+      }
+      a[title="test"] {
+        color:coral;
+      }
     </style>
   </head>
   <body>
@@ -36,5 +42,8 @@
         </div>
       </li>
     </ul>
+    <br />
+    <a href="#" title="test">Link with title</a>
+    <a href="#">Link without title</a>
   </body>
 </html>
