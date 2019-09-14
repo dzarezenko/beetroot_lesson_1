@@ -21,6 +21,24 @@
       a[title="test"] {
         color:coral;
       }
+      li:hover {
+        background-color: black;
+      }
+      a:not(:hover) {
+        background-color: gold;
+      }
+
+      p::first-line {
+        color: green;
+      }
+      p.par::first-letter {
+        font-weight: normal;
+        text-transform: lowercase;
+      }
+      p::first-letter {
+        font-weight: bold;
+        text-transform: uppercase;
+      }
     </style>
   </head>
   <body>
@@ -45,5 +63,17 @@
     <br />
     <a href="#" title="test">Link with title</a>
     <a href="#">Link without title</a>
+
+    <p id="paragraph">
+      laksjdlsajdksdj<br />
+      salkdj laskdjlkasjd
+      aslkdjlaksjd
+    </p>
+
+    <p class="par">
+        laksjdlsajdksdj<br />
+        salkdj laskdjlkasjd
+        aslkdjlaksjd
+      </p>
   </body>
 </html>
